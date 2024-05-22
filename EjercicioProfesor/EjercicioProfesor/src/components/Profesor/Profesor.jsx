@@ -14,7 +14,7 @@ const Profesor = ({initialState}) => {
   }
   return (
     <div>
-      <h2>Teacher Name:<span>{name}</span></h2>
+      <h2>Teacher Name:<span> {name}</span></h2> 
       <ul>
         <li><button onClick={teacherYolanda}>Yolanda</button></li>
         <li><button onClick={teacherData}>Data</button></li>
