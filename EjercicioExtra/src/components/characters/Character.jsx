@@ -18,6 +18,9 @@ const Character = () => {
         })
         
     },[])
+    if (loading) {
+        return <p>Cargando...</p>
+    }
   return (
     <div>
         <h1>Personajes de Star Wars</h1>
